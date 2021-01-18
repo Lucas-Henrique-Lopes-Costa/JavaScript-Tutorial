@@ -10,7 +10,7 @@ console.log(name);
 // pode declarar duas ao mesmo tempor
 let firtName, lastName;
 
-// constantesntes
+// Constantes
 let people = 0.3; // podem variar
 people = 1;
 console.log(people);
