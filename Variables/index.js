@@ -26,3 +26,12 @@ let age = 30; // Number
 let isApproved = true; // Boolean
 let firstName; // undefined => "let firstName = undefined;"
 let selectedColor = null; // "null" expressa que não tem nada/vazio
+
+// Dynamic Types
+    // podemos mudar a variável no futuro
+
+typeof nome == 'string';
+typeof age == 'number';
+typeof isApproved == 'boolean';
+typeof firstName == 'string';
+typeof selectedColor == 'object';
