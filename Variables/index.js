@@ -1,5 +1,4 @@
-// variables = caixas que você armaenas suas coisas
-
+// Variables = caixas que você armaenas suas coisas
 let name = 'Lucas';
 console.log(name);
 
@@ -18,3 +17,12 @@ console.log(people);
 const interestRate = 0.3; // não pode variar
 interestRate = 1.5; // retorna um erro, porque você está mudando a sua variável
 console.log(interestRate);
+
+// Tipos de Variáveis
+
+// Primitives / Value Types
+let nome = "Lucas"; // String
+let age = 30; // Number
+let isApproved = true; // Boolean
+let firstName; // undefined => "let firstName = undefined;"
+let selectedColor = null; // "null" expressa que não tem nada/vazio
