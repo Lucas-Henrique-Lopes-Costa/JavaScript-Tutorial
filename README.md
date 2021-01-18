@@ -1,11 +1,11 @@
 # JavaScript Tutorial
  
-## O que é JavaScript
+## O que é JavaScript?
 É uma linguagem que esá crescendo muito e sendo usado por muitos empresas grandes, como: **Netflix, WallMart, Paypal**
 
 ---
 
-Ele é usado em:
+**Ele é usado em:**
 * Front-end Developer;
 * Back-end Developer;
 * Full-stack Developer;
@@ -21,7 +21,7 @@ Ele era muito usado para fazer sites, mas hoje pode fazer muito mais... Como:
 * Games;
 
 ---
-## Onde o JavaScript pode fazer?
+## Onde o JavaScript pode ser usado?
 
 Ele originamente foi desenvolvido para rodam em navegadores, no Chrome o motor que roda o JavaScript é o **V8**.
 
