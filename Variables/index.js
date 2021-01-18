@@ -15,7 +15,7 @@ people = 1;
 console.log(people);
 
 const interestRate = 0.3; // não pode variar
-interestRate = 1.5; // retorna um erro, porque você está mudando a sua variável
+// interestRate = 1.5; // retorna um erro, porque você está mudando a sua variável
 console.log(interestRate);
 
 // Tipos de Variáveis
@@ -29,9 +29,36 @@ let selectedColor = null; // "null" expressa que não tem nada/vazio
 
 // Dynamic Types
     // podemos mudar a variável no futuro
-
 typeof nome == 'string';
 typeof age == 'number';
 typeof isApproved == 'boolean';
 typeof firstName == 'string';
 typeof selectedColor == 'object';
+
+// Reference Types
+// Object = é como na vida real, é um objeto
+    let person = {
+        name: 'Lucas',
+        age: 30
+    };
+    console.log(person);
+
+    // Dot Notation = Notação em Potnos
+        // mudando algum dos objetos
+        person.name = 'John';
+        console.log(person);
+        
+        // mostrando um objeto
+        console.log(person.name);
+    
+    // Bracket Notation = Notação os Colchetes
+        // mudando algum dos objetos
+        person['name'] = 'Marcos Túlio';
+        console.log(person.name);
+        // De forma dinâmica
+        let selection = 'name';
+        person[selection] ='Fernando'
+        console.log(person.name);
+
+// Arrays
+// Function
