@@ -61,4 +61,19 @@ typeof selectedColor == 'object';
         console.log(person.name);
 
 // Arrays
+let selectionColors = ['red', 'blue']; // Indica um Array
+
+console.log(selectionColors);
+console.log(selectionColors[1]); // Mostra o item de Index 1
+selectionColors[0] = 'green'; // Mudando um dos itens
+console.log(selectionColors);
+
+// podemos tambémm misturar tipos primitivos em um Array
+selectionColors[2] = 1;
+console.log(selectionColors);
+
+typeof selectionColors == 'object'; // Todo Array é um objeto
+
+console.log(selectionColors.length);
+
 // Function
