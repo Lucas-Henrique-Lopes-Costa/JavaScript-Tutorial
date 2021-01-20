@@ -17,7 +17,7 @@
 Ele era muito usado para fazer sites, mas hoje pode fazer muito mais... Como: 
 
 * Web/Mobiles apps;
-* Web apps (que se autoalizam na hora - Stream);
+* Web apps (que se autoalizam na hora | Stream);
 * Games;
 
 ---
@@ -27,7 +27,7 @@ Ele originamente foi desenvolvido para rodam em navegadores, no Chrome o motor q
 
 Logo, você pode usar o seu prórprio navegador para usar o JavaScript, basta abrir o **__console__** (apertando a tecla F12).
 
-Além disso, utiliza-se o **__NODE__**. Ele processa e renderiza a execução de elementos escritos em JavaScript.
+Além disso, utiliza-se o **__NODE__**. Ele processa e renderiza uma execução de elementos escritos em JavaScript.
 
 ---
 ## Qual a diferença entre ECMAScript e JavaScript?
