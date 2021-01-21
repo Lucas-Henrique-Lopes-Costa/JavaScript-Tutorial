@@ -75,3 +75,26 @@ console.log(selectionColors);
         arr1[0] = 'Batata'
     })();
     console.log(arr2);
+
+// Destructuring Assingnment
+    const [z, x, , y] = [1,2,3,4,5,6]; // como não tem um número no no Array ("[z, x, , y]")
+    console.log(z,x,y);
+
+    let a = 8, b = 6;
+    () => {
+        "use strict";
+        [a, b] = [b, a]
+    };
+    console.log(a);
+    console.log(b);
+
+    // Using Rest Operator
+        const source = [1,2,3,4,5,6,7,8,9,10];
+        function removeFirstTwo(list) {
+            const [ , , ...arr] = list; // using rest operator | "...arr" will be the other numbers
+
+            return arr;
+        }
+        const arr = removeFirstTwo(source);
+        console.log(arr);
+        console.log(source);

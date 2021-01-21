@@ -47,3 +47,31 @@ typeof selectedColor == 'object'; // Object => armazenam diferente tipos de dado
         return parseInt(str, 2) // "2" means binary
     }
     console.log(convertBinaryToInteger("01000"));
+
+// Create String with Template Literals
+    const person = {
+        name: "Lucas Henrique",
+        age: 17
+    }
+
+    const greeting = `Olá, meu nome é ${person.name}! Eu tenho ${person.age} anos de idade`
+
+    console.log(greeting);
+
+    // Exemple
+        const result = {
+            qualidade: ["128K", "256K", "512K"],
+            links: ["http://example.com", "http://example.com", "http://example.com"]
+        }
+
+        function makeList(result) {
+            const resultDisplayArray = [];
+            for (let i = 0; i < result.qualidade.length; i++) {
+                resultDisplayArray.push(`<li><a href="${result.links[i]}">Qualidade: ${result.qualidade[i]}</a></li>`)
+            }
+
+            return resultDisplayArray;
+        }
+        const resultDisplayArray = makeList(result)
+        console.log(result.links[1]);
+        console.log(resultDisplayArray);
