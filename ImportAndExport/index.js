@@ -1,19 +1,9 @@
-  
-// import { capitalizeString } from "./importFiles";
-import * as capitalizeStings from "importFiles";
+import * as module from "./importFiles.js";
 
-console.log(capitalizeString("Hello!"));
+// import { capitalizeString } from "./importFiles.js";
+// import substract from "./importFiles.js";
 
-const capitalizeString = (string) => {
-    return string.chaAt(0).toUpperCase() + string.slice(1);
-}
-
-export { capitalizeString };
-
-export const foo = "bar";
-export const bar = "foo";
+console.log(module.capitalizeString("Hello!"));
 
 // fall back export
-    import substract from "importFiles";
-
-    substract(2, 12);
+    console.log(module.substract(2, 12))
